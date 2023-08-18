@@ -18,16 +18,17 @@
             <form action="" method="">
                 <fieldset>
                     <legend>Let's do this!</legend>
+                    <p><strong>Items are required if marked with *</strong></p>
                     <p>
-                        <label for="firstName">First Name</label>
+                        <label for="firstName">First Name <strong>*</strong></label>
                         <input type="text" id="firstName" name="firstName" required/>
                     </p>
                     <p>
-                        <label for="lastName">Last Name</label>
+                        <label for="lastName">Last Name <strong>*</strong></label>
                         <input type="text" id="lastName" name="lastName" required/>
                     </p>
                     <p>
-                        <label for="email">Email</label>
+                        <label for="email">Email <strong>*</strong></label>
                         <input type="email" id="email" name="email" required/>
                     </p>
                     <p>
@@ -35,8 +36,12 @@
                         <input type="tel" id="phone" name="phone"/>
                     </p>
                     <p>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password"/>
+                        <label for="password">Password <strong>*</strong></label>
+                        <input type="password" id="password" name="password" required/>
+                    </p>
+                    <p>
+                        <label for="confirmPass"> Confirm Password <strong>*</strong></label>
+                        <input type="password" id="confirmPass" name="confirmPass" required/>
                     </p>
                 </fieldset>
                 <button type="submit">Create Account</button>
