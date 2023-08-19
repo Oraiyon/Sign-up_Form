@@ -17,12 +17,10 @@ body{
 .container{
     display: flex;
     width: 1000px;
-    margin: 0 auto;
     background-color: white;
 }
 
 .right{
-    margin: auto 0;
     padding-left: 24px;
     padding-top: 46px;
 }
