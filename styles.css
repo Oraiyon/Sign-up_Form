@@ -9,12 +9,15 @@
     display: flex;
     width: 1000px;
     margin: 0 auto;
+    position: relative;
+    top: 285px;
+    border: 2px solid black;
 }
 
 .right{
     margin: auto 0;
-    background-color: rgb(252, 252, 252);
     padding-left: 24px;
+    padding-top: 46px;
 }
 
 form{
@@ -25,7 +28,6 @@ fieldset{
     border: none;
     margin-bottom: 24px;
     padding: 16px 0;
-    background-color: white;
 }
 
 .fields{
@@ -53,6 +55,10 @@ button{
     background-color: #297529;
 }
 
+button + p{
+    padding-bottom: 46px;
+}
+
 input:focus{
     border: 2px solid blue;
 }
@@ -67,4 +73,11 @@ input[type="text"]:valid,
 input[type="email"]:valid,
 input[type="password"]:valid{
     border: 2px solid rgb(11, 196, 11);
+}
+
+.left{
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
 }
