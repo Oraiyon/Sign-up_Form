@@ -5,13 +5,17 @@
     font-size: 1rem;
 }
 
+body{
+    background-color: #141414;
+}
+
 .container{
     display: flex;
     width: 1000px;
     margin: 0 auto;
     position: relative;
     top: 285px;
-    border: 2px solid black;
+    background-color: white;
 }
 
 .right{
